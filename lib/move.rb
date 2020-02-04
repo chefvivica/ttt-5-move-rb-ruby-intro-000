@@ -8,7 +8,6 @@ end
 
 # code your input_to_index and move method here!
 def input_to_index(input)
-    puts "please enter 1-9:"
     input = gets.strip
     return input.to_i-1
 end
@@ -22,4 +21,3 @@ def move(board, vaule, index)
     end
     return newboard
   end
-    
