@@ -9,3 +9,5 @@ board  = [" "," "," "," "," "," "," "," "," "]
 display_board(board)
 
 their_move = input_to_index
+
+move(board,"x",their_move)
