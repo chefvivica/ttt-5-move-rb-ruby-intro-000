@@ -12,7 +12,7 @@ def input_to_index(input)
     return input.to_i-1
 end
 
-def move(board, vaule, index)
+def move(board, vaule, input_to_index)
     newboard = []
     i = input_to_index
     while i < board.length do
