@@ -7,6 +7,6 @@ puts "Welcome to Tic Tac Toe!"
 puts "Where would you like to go?"
 board  = [" "," "," "," "," "," "," "," "," "]
 display_board(board)
-puts "please enter 1-9:"
+
 
 move(board,"x",their_move)
